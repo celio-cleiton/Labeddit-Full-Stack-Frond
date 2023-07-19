@@ -19,7 +19,8 @@
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.8.1",
-    "styled-components": "^6.0.0-rc.6"
+    "styled-components": "^6.0.0-rc.6",
+    "surge": "^0.23.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

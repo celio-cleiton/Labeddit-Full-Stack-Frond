@@ -1,10 +1,10 @@
 # Projeto LabEddit - Frontend
 
-Projeto Labbedit - API de Rede Social
+Projeto FullStack Labbedit - Rede Social
 
 Autor: Célio Cleiton Do Vale Rodrigues
 Repositório Front-end: [link]
-Repositório Back-end: [link]
+Repositório Back-end: [link aqui](https://apilabeddit-6l24.onrender.com)
 
 O Labbedit é uma API de rede social que tem como objetivo promover a conexão e interação entre pessoas. Com o aplicativo, os usuários podem se cadastrar, criar publicações e interagir com as postagens por meio de curtidas.
 
@@ -19,9 +19,9 @@ O Labbedit proporciona uma experiência de rede social completa, permitindo que 
 
 ## links:
 
-- Deploy do front: [celio-cleiton-labeddit-frontend.surge.sh](surge.sh)
+- Deploy do front: [clique aqui!](https://cleiton-projeto-labeddit.surge.sh/)
 
-- Labeddit-Back-end: [clique aqui!](https://github.com)
+- Labeddit-Back-end: [clique aqui!](https://github.com/celio-cleiton/projeto-labook-backend)
 
 - Documentação do Postman: [clique aqui!](https://documenter.getpostman.com/view/24823231/2s946h7rTT)
 

@@ -19,7 +19,7 @@ function PostCard(props) {
   const likePost = async (postId) => {
     try {
       const body = {
-        like: true,
+        like: 1,
       };
       await axios.put(`${BASE_URL}/posts/${postId}/like`, body, {
         headers: {
@@ -35,7 +35,7 @@ function PostCard(props) {
   const dislikePost = async (postId) => {
     try {
       const body = {
-        like: false,
+        like: 0,
       };
       await axios.put(`${BASE_URL}/posts/${postId}/like`, body, {
         headers: {

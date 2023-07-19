@@ -1,1 +1,1 @@
-export const BASE_URL = "https://celiolabookapi.onrender.com"
+export const BASE_URL = "https://apilabeddit-6l24.onrender.com"

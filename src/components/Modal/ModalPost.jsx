@@ -40,11 +40,11 @@ function ModalPost(props) {
   const likePost = async (postId) => {
     try {
       let body = {
-        like: true,
+        like: 1,
       };
       await axios.put(`${BASE_URL}/posts/${postId}/like`, body, {
         headers: {
-          Authorization: window.localStorage.getItem("TokenApi-Labeddit"),
+          Authorization: window.localStorage.getItem("TokenJwt"),
         },
       });
       browserPost();
@@ -57,7 +57,7 @@ function ModalPost(props) {
   const dislikePost = async (postId) => {
     try {
       let body = {
-        like: false,
+        like: 0,
       };
       await axios.put(`${BASE_URL}/posts/${postId}/like`, body, {
         headers: {
