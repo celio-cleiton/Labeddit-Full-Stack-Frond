@@ -3,8 +3,8 @@
 Projeto FullStack Labbedit - Rede Social
 
 Autor: Célio Cleiton Do Vale Rodrigues
-Repositório Front-end: [link]
-Repositório Back-end: [link aqui](https://apilabeddit-6l24.onrender.com)
+Repositório Front-end: [link](https://github.com/celio-cleiton/Labeddit-Full-Stack-Frontend)
+Repositório Back-end: [link aqui](https://github.com/celio-cleiton/projeto-labook-backend)
 
 O Labbedit é uma API de rede social que tem como objetivo promover a conexão e interação entre pessoas. Com o aplicativo, os usuários podem se cadastrar, criar publicações e interagir com as postagens por meio de curtidas.
 
