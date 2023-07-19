@@ -31,27 +31,33 @@ function LoginPage() {
 
   const loginUser = async () => {
     try {
-      let body = {
+      const body = {
         email: form.email,
         password: form.password,
       };
-
+  
       const response = await axios.post(`${BASE_URL}/users/login`, body);
       console.log("response", response);
-
-      const { token } = response.data;
-
-      if (response.data.token === token && response.status === 200) {
-        window.localStorage.setItem("TokenJwt", token);
-        goToHomePage(navigate);
-        console.log("ok entrou no if");
+  
+      if (response.status === 200) {
+        const { token } = response.data;
+        if (token) {
+          window.localStorage.setItem("TokenJwt", token);
+          goToHomePage(navigate);
+          console.log("Login realizado com sucesso");
+        } else {
+          setShowAlert(false);
+          console.log("Token não recebido");
+        }
       } else {
         setShowAlert(false);
+        console.log("Erro na resposta do servidor");
       }
     } catch (error) {
-      console.log(error);
+      console.log("Erro na requisição:", error);
     }
   };
+  
   const closeAlert = () => {
     setShowAlert(false);
   };
@@ -66,10 +72,12 @@ function LoginPage() {
           </div>
           <div>
             <input
+              type="email"
               value={form.email}
               name="email"
               onChange={onChangeForm}
               placeholder="E-mail"
+              required
             />
             <input
               value={form.password}
@@ -77,6 +85,7 @@ function LoginPage() {
               onChange={onChangeForm}
               type="password"
               placeholder="Senha"
+              required
             />
           </div>
           <div>
