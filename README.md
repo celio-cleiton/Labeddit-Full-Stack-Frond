@@ -21,7 +21,7 @@ O Labbedit proporciona uma experiência de rede social completa, permitindo que 
 
 - Deploy do front: [clique aqui!](https://cleiton-projeto-labeddit.surge.sh/)
 
-- Labeddit-Back-end: [clique aqui!](https://github.com/celio-cleiton/projeto-labook-backend)
+- Labeddit-Back-end: [clique aqui!](https://apilabeddit-6l24.onrender.com)
 
 - Documentação do Postman: [clique aqui!](https://documenter.getpostman.com/view/24823231/2s946h7rTT)
 
